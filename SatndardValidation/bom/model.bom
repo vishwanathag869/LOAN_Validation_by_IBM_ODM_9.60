@@ -1,0 +1,124 @@
+
+#loadGetterSetterAsProperties
+property origin "xom:/SatndardValidation//LoanValidationXOM"
+property uuid "742429a6-cdf3-4613-8a45-bf2510343506"
+package com.company.loan.model;
+
+
+class Address
+{
+    string city;
+    string country;
+    string houseNumber;
+    string postalCode;
+    string state;
+    string street;
+    Address();
+}
+
+class Applicant
+{
+    com.company.loan.model.Address address;
+    int age;
+    string applicantId;
+    com.company.loan.model.BankAccount bankAccount;
+    com.company.loan.model.CreditHistory creditHistory;
+    com.company.loan.model.ApplicantDetails details;
+    com.company.loan.model.Employment employment;
+    string firstName;
+    string gender;
+    com.company.loan.model.Income income;
+    string lastName;
+    Applicant();
+}
+
+class ApplicantDetails
+{
+    string aadhaarNumber;
+    int dependents;
+    boolean existingCustomer;
+    string maritalStatus;
+    string panNumber;
+    ApplicantDetails();
+}
+
+class BankAccount
+{
+    string accountNumber;
+    string accountType;
+    double balance;
+    string bankName;
+    BankAccount();
+}
+
+class Collateral
+{
+    string collateralType;
+    double marketValue;
+    boolean verified;
+    Collateral();
+}
+
+class CreditHistory
+{
+    int activeLoans;
+    int creditScore;
+    boolean loanDefault;
+    double outstandingAmount;
+    CreditHistory();
+}
+
+class Employment
+{
+    string designation;
+    string employerName;
+    string employmentType;
+    int experienceYears;
+    boolean salaried;
+    Employment();
+}
+
+class Income
+{
+    double annualIncome;
+    double monthlyIncome;
+    double otherIncome;
+    Income();
+}
+
+class Loan
+{
+    com.company.loan.model.Collateral collateral;
+    com.company.loan.model.LoanDetails details;
+    string loanId;
+    string loanType;
+    Loan();
+}
+
+class LoanApplication
+{
+    com.company.loan.model.Applicant applicant;
+    com.company.loan.model.Loan loan;
+    com.company.loan.model.ValidationResult validationResult;
+    LoanApplication();
+}
+
+class LoanDetails
+{
+    double interestRate;
+    double loanAmount;
+    string purpose;
+    string repaymentType;
+    int tenureMonths;
+    LoanDetails();
+}
+
+class ValidationResult
+{
+    string decision;
+    boolean eligible;
+    readonly java.util.List messages domain 0,* class string;
+    ValidationResult();
+    void addMessage(string arg);
+}
+

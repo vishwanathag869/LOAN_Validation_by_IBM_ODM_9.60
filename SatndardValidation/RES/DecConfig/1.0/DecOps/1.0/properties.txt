@@ -1,0 +1,4 @@
+#Sun Jul 26 23:44:18 IST 2026
+ruleset.engine=de
+ruleset.engine.version=1.90.1
+ruleset.uuid=f47364d7-cb56-417f-a213-dc6951f15113

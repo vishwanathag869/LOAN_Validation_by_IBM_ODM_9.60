@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="DecOps" usingRuleflow="true" ruleflowName="mainFlow" targetRuleProjectName="SatndardValidation">
+  <name>DecOps</name>
+  <uuid>68a0b544-2d56-4f51-bf0b-c8861428efb0</uuid>
+  <referencedVariables variableName="loan" variableSetName="variables" direction="IN_OUT">
+    <variableSet href="../rules/variables.var#a09c4a83-271e-4bcc-a79f-e55179edbda3"/>
+  </referencedVariables>
+  <ruleflow href="../rules/mainFlow.rfl#9fc66f10-fdff-461b-820f-11e440884296"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="DecOps_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../SatndardValidation#5029f33b-4ec2-4e94-b1e7-ea11ec7bc96d"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

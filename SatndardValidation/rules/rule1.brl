@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>rule1</name>
+  <uuid>e0d2cffd-2acc-446b-8737-5d5df6e16d98</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if 
+	 the loan amount of the details of the loan of loan is more than 0 
+then add "welcome" to the messages of the validation result of loan ;  
+set the decision of the validation result of loan to "approved" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

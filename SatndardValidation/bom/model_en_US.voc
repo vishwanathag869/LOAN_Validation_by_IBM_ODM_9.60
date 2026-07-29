@@ -1,0 +1,150 @@
+# Vocabulary Properties
+uuid = 621a2c0f-8d72-4450-89fd-508aa236955c
+
+# com.company.loan.model.Address
+com.company.loan.model.Address#concept.label = address
+com.company.loan.model.Address.city#phrase.action = set the city of {this} to {city}
+com.company.loan.model.Address.city#phrase.navigation = {city} of {this}
+com.company.loan.model.Address.country#phrase.action = set the country of {this} to {country}
+com.company.loan.model.Address.country#phrase.navigation = {country} of {this}
+com.company.loan.model.Address.houseNumber#phrase.action = set the house number of {this} to {house number}
+com.company.loan.model.Address.houseNumber#phrase.navigation = {house number} of {this}
+com.company.loan.model.Address.postalCode#phrase.action = set the postal code of {this} to {postal code}
+com.company.loan.model.Address.postalCode#phrase.navigation = {postal code} of {this}
+com.company.loan.model.Address.state#phrase.action = set the state of {this} to {state}
+com.company.loan.model.Address.state#phrase.navigation = {state} of {this}
+com.company.loan.model.Address.street#phrase.action = set the street of {this} to {street}
+com.company.loan.model.Address.street#phrase.navigation = {street} of {this}
+
+# com.company.loan.model.Applicant
+com.company.loan.model.Applicant#concept.label = applicant
+com.company.loan.model.Applicant.address#phrase.action = set the address of {this} to {address}
+com.company.loan.model.Applicant.address#phrase.navigation = {address} of {this}
+com.company.loan.model.Applicant.age#phrase.action = set the age of {this} to {age}
+com.company.loan.model.Applicant.age#phrase.navigation = {age} of {this}
+com.company.loan.model.Applicant.applicantId#phrase.action = set the applicant id of {this} to {applicant id}
+com.company.loan.model.Applicant.applicantId#phrase.navigation = {applicant id} of {this}
+com.company.loan.model.Applicant.bankAccount#phrase.action = set the bank account of {this} to {bank account}
+com.company.loan.model.Applicant.bankAccount#phrase.navigation = {bank account} of {this}
+com.company.loan.model.Applicant.creditHistory#phrase.action = set the credit history of {this} to {credit history}
+com.company.loan.model.Applicant.creditHistory#phrase.navigation = {credit history} of {this}
+com.company.loan.model.Applicant.details#phrase.action = set the details of {this} to {details}
+com.company.loan.model.Applicant.details#phrase.navigation = {details} of {this}
+com.company.loan.model.Applicant.employment#phrase.action = set the employment of {this} to {employment}
+com.company.loan.model.Applicant.employment#phrase.navigation = {employment} of {this}
+com.company.loan.model.Applicant.firstName#phrase.action = set the first name of {this} to {first name}
+com.company.loan.model.Applicant.firstName#phrase.navigation = {first name} of {this}
+com.company.loan.model.Applicant.gender#phrase.action = set the gender of {this} to {gender}
+com.company.loan.model.Applicant.gender#phrase.navigation = {gender} of {this}
+com.company.loan.model.Applicant.income#phrase.action = set the income of {this} to {income}
+com.company.loan.model.Applicant.income#phrase.navigation = {income} of {this}
+com.company.loan.model.Applicant.lastName#phrase.action = set the last name of {this} to {last name}
+com.company.loan.model.Applicant.lastName#phrase.navigation = {last name} of {this}
+
+# com.company.loan.model.ApplicantDetails
+com.company.loan.model.ApplicantDetails#concept.label = applicant details
+com.company.loan.model.ApplicantDetails.aadhaarNumber#phrase.action = set the aadhaar number of {this} to {aadhaar number}
+com.company.loan.model.ApplicantDetails.aadhaarNumber#phrase.navigation = {aadhaar number} of {this}
+com.company.loan.model.ApplicantDetails.dependents#phrase.action = set the dependents of {this} to {dependents}
+com.company.loan.model.ApplicantDetails.dependents#phrase.navigation = {dependents} of {this}
+com.company.loan.model.ApplicantDetails.existingCustomer#phrase.action = make it {existing customer} that {this} is existing customer
+com.company.loan.model.ApplicantDetails.existingCustomer#phrase.navigation = {this} is existing customer
+com.company.loan.model.ApplicantDetails.maritalStatus#phrase.action = set the marital status of {this} to {marital status}
+com.company.loan.model.ApplicantDetails.maritalStatus#phrase.navigation = {marital status} of {this}
+com.company.loan.model.ApplicantDetails.panNumber#phrase.action = set the pan number of {this} to {pan number}
+com.company.loan.model.ApplicantDetails.panNumber#phrase.navigation = {pan number} of {this}
+
+# com.company.loan.model.BankAccount
+com.company.loan.model.BankAccount#concept.label = bank account
+com.company.loan.model.BankAccount.accountNumber#phrase.action = set the account number of {this} to {account number}
+com.company.loan.model.BankAccount.accountNumber#phrase.navigation = {account number} of {this}
+com.company.loan.model.BankAccount.accountType#phrase.action = set the account type of {this} to {account type}
+com.company.loan.model.BankAccount.accountType#phrase.navigation = {account type} of {this}
+com.company.loan.model.BankAccount.balance#phrase.action = set the balance of {this} to {balance}
+com.company.loan.model.BankAccount.balance#phrase.navigation = {balance} of {this}
+com.company.loan.model.BankAccount.bankName#phrase.action = set the bank name of {this} to {bank name}
+com.company.loan.model.BankAccount.bankName#phrase.navigation = {bank name} of {this}
+
+# com.company.loan.model.Collateral
+com.company.loan.model.Collateral#concept.label = collateral
+com.company.loan.model.Collateral.collateralType#phrase.action = set the collateral type of {this} to {collateral type}
+com.company.loan.model.Collateral.collateralType#phrase.navigation = {collateral type} of {this}
+com.company.loan.model.Collateral.marketValue#phrase.action = set the market value of {this} to {market value}
+com.company.loan.model.Collateral.marketValue#phrase.navigation = {market value} of {this}
+com.company.loan.model.Collateral.verified#phrase.action = make it {verified} that {this} is verified
+com.company.loan.model.Collateral.verified#phrase.navigation = {this} is verified
+
+# com.company.loan.model.CreditHistory
+com.company.loan.model.CreditHistory#concept.label = credit history
+com.company.loan.model.CreditHistory.activeLoans#phrase.action = set the active loans of {this} to {active loans}
+com.company.loan.model.CreditHistory.activeLoans#phrase.navigation = {active loans} of {this}
+com.company.loan.model.CreditHistory.creditScore#phrase.action = set the credit score of {this} to {credit score}
+com.company.loan.model.CreditHistory.creditScore#phrase.navigation = {credit score} of {this}
+com.company.loan.model.CreditHistory.loanDefault#phrase.action = make it {loan default} that {this} is loan default
+com.company.loan.model.CreditHistory.loanDefault#phrase.navigation = {this} is loan default
+com.company.loan.model.CreditHistory.outstandingAmount#phrase.action = set the outstanding amount of {this} to {outstanding amount}
+com.company.loan.model.CreditHistory.outstandingAmount#phrase.navigation = {outstanding amount} of {this}
+
+# com.company.loan.model.Employment
+com.company.loan.model.Employment#concept.label = employment
+com.company.loan.model.Employment.designation#phrase.action = set the designation of {this} to {designation}
+com.company.loan.model.Employment.designation#phrase.navigation = {designation} of {this}
+com.company.loan.model.Employment.employerName#phrase.action = set the employer name of {this} to {employer name}
+com.company.loan.model.Employment.employerName#phrase.navigation = {employer name} of {this}
+com.company.loan.model.Employment.employmentType#phrase.action = set the employment type of {this} to {employment type}
+com.company.loan.model.Employment.employmentType#phrase.navigation = {employment type} of {this}
+com.company.loan.model.Employment.experienceYears#phrase.action = set the experience years of {this} to {experience years}
+com.company.loan.model.Employment.experienceYears#phrase.navigation = {experience years} of {this}
+com.company.loan.model.Employment.salaried#phrase.action = make it {salaried} that {this} is salaried
+com.company.loan.model.Employment.salaried#phrase.navigation = {this} is salaried
+
+# com.company.loan.model.Income
+com.company.loan.model.Income#concept.label = income
+com.company.loan.model.Income.annualIncome#phrase.action = set the annual income of {this} to {annual income}
+com.company.loan.model.Income.annualIncome#phrase.navigation = {annual income} of {this}
+com.company.loan.model.Income.monthlyIncome#phrase.action = set the monthly income of {this} to {monthly income}
+com.company.loan.model.Income.monthlyIncome#phrase.navigation = {monthly income} of {this}
+com.company.loan.model.Income.otherIncome#phrase.action = set the other income of {this} to {other income}
+com.company.loan.model.Income.otherIncome#phrase.navigation = {other income} of {this}
+
+# com.company.loan.model.Loan
+com.company.loan.model.Loan#concept.label = loan
+com.company.loan.model.Loan.collateral#phrase.action = set the collateral of {this} to {collateral}
+com.company.loan.model.Loan.collateral#phrase.navigation = {collateral} of {this}
+com.company.loan.model.Loan.details#phrase.action = set the details of {this} to {details}
+com.company.loan.model.Loan.details#phrase.navigation = {details} of {this}
+com.company.loan.model.Loan.loanId#phrase.action = set the loan id of {this} to {loan id}
+com.company.loan.model.Loan.loanId#phrase.navigation = {loan id} of {this}
+com.company.loan.model.Loan.loanType#phrase.action = set the loan type of {this} to {loan type}
+com.company.loan.model.Loan.loanType#phrase.navigation = {loan type} of {this}
+
+# com.company.loan.model.LoanApplication
+com.company.loan.model.LoanApplication#concept.label = loan application
+com.company.loan.model.LoanApplication.applicant#phrase.action = set the applicant of {this} to {applicant}
+com.company.loan.model.LoanApplication.applicant#phrase.navigation = {applicant} of {this}
+com.company.loan.model.LoanApplication.loan#phrase.action = set the loan of {this} to {loan}
+com.company.loan.model.LoanApplication.loan#phrase.navigation = {loan} of {this}
+com.company.loan.model.LoanApplication.validationResult#phrase.action = set the validation result of {this} to {validation result}
+com.company.loan.model.LoanApplication.validationResult#phrase.navigation = {validation result} of {this}
+
+# com.company.loan.model.LoanDetails
+com.company.loan.model.LoanDetails#concept.label = loan details
+com.company.loan.model.LoanDetails.interestRate#phrase.action = set the interest rate of {this} to {interest rate}
+com.company.loan.model.LoanDetails.interestRate#phrase.navigation = {interest rate} of {this}
+com.company.loan.model.LoanDetails.loanAmount#phrase.action = set the loan amount of {this} to {loan amount}
+com.company.loan.model.LoanDetails.loanAmount#phrase.navigation = {loan amount} of {this}
+com.company.loan.model.LoanDetails.purpose#phrase.action = set the purpose of {this} to {purpose}
+com.company.loan.model.LoanDetails.purpose#phrase.navigation = {purpose} of {this}
+com.company.loan.model.LoanDetails.repaymentType#phrase.action = set the repayment type of {this} to {repayment type}
+com.company.loan.model.LoanDetails.repaymentType#phrase.navigation = {repayment type} of {this}
+com.company.loan.model.LoanDetails.tenureMonths#phrase.action = set the tenure months of {this} to {tenure months}
+com.company.loan.model.LoanDetails.tenureMonths#phrase.navigation = {tenure months} of {this}
+
+# com.company.loan.model.ValidationResult
+com.company.loan.model.ValidationResult#concept.label = validation result
+com.company.loan.model.ValidationResult.addMessage(java.lang.String)#phrase.action = add {0} to the messages of {this}
+com.company.loan.model.ValidationResult.decision#phrase.action = set the decision of {this} to {decision}
+com.company.loan.model.ValidationResult.decision#phrase.navigation = {decision} of {this}
+com.company.loan.model.ValidationResult.eligible#phrase.action = make it {eligible} that {this} is eligible
+com.company.loan.model.ValidationResult.eligible#phrase.navigation = {this} is eligible
+com.company.loan.model.ValidationResult.messages#phrase.navigation = {message} of {this}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>mainFlow</name>
+  <uuid>9fc66f10-fdff-461b-820f-11e440884296</uuid>
+  <locale>en_US</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_4" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="e0d2cffd-2acc-446b-8737-5d5df6e16d98"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_1">
+        <Actions/>
+      </StopTask>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node2" Task="task_0"/>
+      <TaskNode Identifier="node3" Task="task_1"/>
+      <BranchNode Identifier="node8"/>
+      <TaskNode Identifier="node11" Task="task_4"/>
+      <TaskNode Identifier="node14" Task="task_1"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="link9" Source="node2" Target="node8"/>
+      <Transition Identifier="link12" Source="node8" Target="node11">
+        <Conditions Language="bal"><![CDATA[the age of the applicant of loan is more than 20]]></Conditions>
+      </Transition>
+      <Transition Identifier="link13" Source="node11" Target="node3"/>
+      <Transition Identifier="link15" Source="node8" Target="node14"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="en_US">
+      <Data Name="node3#y">275.0</Data>
+      <Data Name="node2#y">15.0</Data>
+      <Data Name="node3#x">125.845</Data>
+      <Data Name="node2#x">70.422</Data>
+      <Data Name="node14#y">190.0</Data>
+      <Data Name="node14#x">15.0</Data>
+      <Data Name="node11#y">190.0</Data>
+      <Data Name="node11#x">125.845</Data>
+      <Data Name="node8#y">100.0</Data>
+      <Data Name="node8#x">70.422</Data>
+      <Data Name="link12#label">age check</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>
