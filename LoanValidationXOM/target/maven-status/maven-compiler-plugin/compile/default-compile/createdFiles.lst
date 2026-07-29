@@ -1,0 +1,12 @@
+com\company\loan\model\Loan.class
+com\company\loan\model\ApplicantDetails.class
+com\company\loan\model\CreditHistory.class
+com\company\loan\model\BankAccount.class
+com\company\loan\model\Applicant.class
+com\company\loan\model\Employment.class
+com\company\loan\model\Collateral.class
+com\company\loan\model\LoanDetails.class
+com\company\loan\model\ValidationResult.class
+com\company\loan\model\LoanApplication.class
+com\company\loan\model\Income.class
+com\company\loan\model\Address.class
