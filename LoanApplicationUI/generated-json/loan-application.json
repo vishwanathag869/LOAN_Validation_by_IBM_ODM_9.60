@@ -1,0 +1,51 @@
+{
+  "applicant" : {
+    "applicantId" : "A2412",
+    "firstName" : "Vishwanatha",
+    "lastName" : "A G",
+    "gender" : "Male",
+    "age" : 18,
+    "details" : {
+      "pan" : "",
+      "aadhaar" : "",
+      "maritalStatus" : ""
+    },
+    "employment" : {
+      "employer" : "",
+      "employmentType" : "",
+      "designation" : ""
+    },
+    "income" : {
+      "monthlyIncome" : 85000,
+      "annualIncome" : 1020000
+    },
+    "address" : {
+      "houseNo" : "",
+      "street" : "",
+      "city" : "Davangere",
+      "state" : "Karnataka",
+      "country" : "India",
+      "postalCode" : "577217"
+    },
+    "creditHistory" : { },
+    "bankDetails" : {
+      "bankName" : "",
+      "accountNumber" : "",
+      "accountType" : ""
+    }
+  },
+  "loan" : {
+    "loanId" : "L7935",
+    "loanType" : "HOME",
+    "details" : {
+      "loanAmount" : 5000000,
+      "tenureMonths" : 240,
+      "interestRate" : 8.5,
+      "purpose" : "",
+      "repaymentType" : ""
+    },
+    "collateral" : {
+      "collateralType" : ""
+    }
+  }
+}
